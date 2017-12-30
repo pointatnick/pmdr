@@ -2,11 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script src="https://cdn.jsdeliver.net/npm/vue"></script>
   <title>pmdr</title>
 </head>
 <body>
   <div id="app">
     {{ message }} 
   </div>
+  <script>
+    var app = new Vue({
+      e1: "#app",
+      data: {
+        message: "Hello Vue!"
+      }
+    });
+  </script>
 </body>
 </html>
